@@ -2,7 +2,7 @@
     "weather": [
         {
             "location": "Tokyo",
-            "temperature": "-10",
+            "temperature": "-5",
             "unit": "fahrenheit"
         },
         {
