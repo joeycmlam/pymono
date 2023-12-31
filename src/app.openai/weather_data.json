@@ -1,0 +1,19 @@
+{
+    "weather": [
+        {
+            "location": "Tokyo",
+            "temperature": "-10",
+            "unit": "fahrenheit"
+        },
+        {
+            "location": "San Francisco",
+            "temperature": "72",
+            "unit": "fahrenheit"
+        },
+        {
+            "location": "Paris",
+            "temperature": "22",
+            "unit": "fahrenheit"
+        }
+    ]
+}
