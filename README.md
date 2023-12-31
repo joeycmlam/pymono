@@ -5,3 +5,7 @@
 ref: https://developer.poe.com/server-bots/quick-start
 
 pip install modal-client
+
+
+deplyment:
+modal deploy [xxx.pyp]

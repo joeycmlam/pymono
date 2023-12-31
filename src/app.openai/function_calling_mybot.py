@@ -21,7 +21,7 @@ def get_current_weather(location, unit="fahrenheit"):
     "weather": [
         {
             "location": "Tokyo",
-            "temperature": "-10",
+            "temperature": "-5",
             "unit": "fahrenheit"
         },
         {
@@ -97,7 +97,7 @@ class GPT35FunctionCallingBot(fp.PoeBot):
 
 REQUIREMENTS = ["fastapi-poe==0.0.25"]
 image = Image.debian_slim().pip_install(*REQUIREMENTS)
-stub = Stub("function-calling-poe")
+stub = Stub("function-calling-mypoe")
 
 
 @stub.function(image=image)
